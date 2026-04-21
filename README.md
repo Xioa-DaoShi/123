@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -119,35 +118,10 @@
                 visibility: hidden;
             }
         }
-
-        /* 可选的极简水印/提示 — 透明背景下也半透明不干扰 */
-        .info-tip {
-            position: fixed;
-            bottom: 18px;
-            right: 20px;
-            background: rgba(30, 30, 40, 0.55);
-            backdrop-filter: blur(10px);
-            color: rgba(255, 255, 245, 0.9);
-            padding: 6px 14px;
-            border-radius: 40px;
-            font-size: 12px;
-            font-family: monospace;
-            z-index: 10000;
-            pointer-events: none;
-            letter-spacing: 0.5px;
-            font-weight: 400;
-            border: 1px solid rgba(255,255,200,0.2);
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        }
         
-        /* 确保body任何角落无背景图、无颜色 */
-        body::before, body::after {
-            display: none;
-        }
     </style>
 </head>
 <body>
-<div class="info-tip">❤️ 透明背景 · 爱心祝福 | 悬浮置顶 · 自动消散</div>
 
 <script>
     // ========== 预设显示内容与背景色 (保留原版暖色风格) ==========
