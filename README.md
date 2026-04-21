@@ -1,4 +1,5 @@
-<head>
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>透明背景 · 爱心悬浮祝福</title>
